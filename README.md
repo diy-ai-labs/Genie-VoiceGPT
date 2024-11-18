@@ -1,43 +1,15 @@
-# Genie-VoiceGPT
-Voice enabled interactive GPT for kids
+# Genie-VoiceGPT - A Voice enabled interactive GPT for kids
 
-## Pre-requisites
+Setup a new fun-filled, chatty buddy - Genie, a voice-enabled interactive GPT that’s here to play, learn, and explore the world with your kids!
 
-Make sure you have he following:
+## AIM
 
-1. Python is installed in your laptop
-2. You have the OpenAI API Key
+The AIM of this project is to help AI enthusiasts who want to get their hands-on implementing AI tools & frameworks and customize it for their need. 
 
-## Setup Steps
+## Setup Options
 
-1. Download / clone the repo
+To setup this VoiceGPT, you will have to use LLM as the brain of it. For this, there are several options available. The code to connect to different LLMs are segregated using branches as mentioned below. You can choose your prefered option and do the setup.
 
-```git
-git clone https://github.com/diy-ai-labs/genie-voicegpt.git
-```
+## Branches
 
-2. Open main.py and add the OpenAI API Key you have in line #20
-
-![alt text](README-IMG/image.png)
-
-3. Open command prompt and enter following commands one by one.
-
-```
-cd genie-voicegpt
-python -m venv venv
-venv\Scripts\activate.bat
-pip install -r requirements.txt
-```
-
-![alt text](README-IMG/image-1.png)
-
-4. Run the below command to start the app.
-
-```
-python main.py
-```
-
-## Let your kids have fun talking to the Genie
-
-
-![alt text](README-IMG/image-2.png)
+llm/openai-api - Use this branch to setup VoiceGPT if you have an OpenAI API key or planning to buy one.

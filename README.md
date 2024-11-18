@@ -18,7 +18,7 @@ git clone https://github.com/diy-ai-labs/genie-voicegpt.git
 
 2. Open main.py and add the OpenAI API Key you have in line #20
 
-![alt text](image.png)
+![alt text](README-IMG/image.png)
 
 3. Open command prompt and enter following commands one by one.
 
@@ -29,7 +29,7 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
-![alt text](image-1.png)
+![alt text](README-IMG/image-1.png)
 
 4. Run the below command to start the app.
 
@@ -40,4 +40,4 @@ python main.py
 ## Let your kids have fun talking to the Genie
 
 
-![alt text](image-2.png)
+![alt text](README-IMG/image-2.png)

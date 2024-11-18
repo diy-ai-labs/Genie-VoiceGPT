@@ -1,5 +1,5 @@
-# Genie-VoiceGPT
-Voice enabled interactive GPT for kids
+# Genie-VoiceGPT with OpenAI API
+Setup this voice enabled interactive GPT for kids using OpenAI API key
 
 ## Pre-requisites
 
@@ -13,7 +13,7 @@ Make sure you have he following:
 1. Download / clone the repo
 
 ```git
-git clone https://github.com/diy-ai-labs/genie-voicegpt.git
+git clone https://github.com/diy-ai-labs/genie-voicegpt.git -b llm/openai-api
 ```
 
 2. Open main.py and add the OpenAI API Key you have in line #20

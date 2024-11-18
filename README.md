@@ -12,4 +12,4 @@ To setup this VoiceGPT, you will have to use LLM as the brain of it. For this, t
 
 ## Branches
 
-llm/openai-api - Use this branch to setup VoiceGPT if you have an OpenAI API key or planning to buy one.
+### llm/openai-api - Use this branch to setup VoiceGPT if you have an OpenAI API key or planning to buy one.

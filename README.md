@@ -37,6 +37,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## A Tip
+
+Try to talk to Genie in more than one word, so that it can recognize better. Avoid single word responses such as yes, no, correct, etc. Try to build a conversation. 
+
 ## Let your kids have fun talking to the Genie
 
 

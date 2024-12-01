@@ -1,15 +1,51 @@
-# Genie-VoiceGPT - A Voice enabled interactive GPT for kids
+# Genie-VoiceGPT with Groq and Llama 3.1
+Setup this voice enabled interactive GPT for kids using free Groq API and Llama 3.1 LLM.
 
-Setup a new fun-filled, chatty buddy - Genie, a voice-enabled interactive GPT that’s here to play, learn, and explore the world with your kids!
+## Create Your Free Groq API Key
 
-## AIM
+Groq Provides a free API with a daily token limits for the LLMs. You can login to https://console.groq.com and create your own API key.
 
-The AIM of this project is to help AI enthusiasts who want to get their hands-on implementing AI tools & frameworks and customize it for their need. 
+## Pre-requisites
 
-## Setup Options
+Make sure you have he following:
 
-To setup this VoiceGPT, you will have to use LLM as the brain of it. For this, there are several options available. The code to connect to different LLMs are segregated using branches as mentioned below. You can choose your prefered option and do the setup.
+1. Python is installed in your laptop
+2. Groq API Key you have created above
 
-## Branches
+## Setup Steps
 
-### llm/openai-api - Use this branch to setup VoiceGPT if you have an OpenAI API key or planning to buy one.
+1. Download / clone the repo
+
+```git
+git clone https://github.com/diy-ai-labs/genie-voicegpt.git -b llm/groq-llama3
+```
+
+2. Open main.py and add your own Grow API Key you have in line #20
+
+![alt text](README-IMG/image.png)
+
+3. Open command prompt and enter following commands one by one.
+
+```
+cd genie-voicegpt
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+![alt text](README-IMG/image-1.png)
+
+4. Run the below command to start the app.
+
+```
+python main.py
+```
+
+## A Tip
+
+Try to talk to Genie in more than one word, so that it can recognize better. Avoid single word responses such as yes, no, correct, etc. Try to build a conversation. 
+
+## Let your kids have fun talking to the Genie
+
+
+![alt text](README-IMG/image-2.png)

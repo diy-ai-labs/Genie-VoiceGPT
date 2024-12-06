@@ -12,4 +12,5 @@ To setup this VoiceGPT, you will have to use LLM as the brain of it. For this, t
 
 ## Branches
 
+### llm/groq-llama3 - Use this branch to setup VoiceGPT with free Llama3.1 LLM from Gorq. You can setup your free account in Groq and create a API key.
 ### llm/openai-api - Use this branch to setup VoiceGPT if you have an OpenAI API key or planning to buy one.
